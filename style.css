@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+body{
+    background-color: rgb(17, 0, 37);
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 90vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    /* background-color: #08f000; */
+    width: 100vw;
+    height: 3rem;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0cf000;
+}
+.box{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="date"] {
+    width: 13rem;
+    height: 2rem;
+    background: #F0A500;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 999;
+    outline: none;
+}
+
+button{
+    background-color: #0cf000;
+    margin-top: 20px;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0px ;
+    font-size: 18px;
+    outline: none;
+}
+
+footer{
+    font-family: 'Alex Brush', cursive;
+    font-size: 2rem;
+    font-weight: lighter
+}
+footer p {
+    margin-bottom: 2rem;
+}
